@@ -1,6 +1,6 @@
-{ "name": "javascript-web",
+{
+  "name": "javascript-web",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "esbuild index.js --bundle  --outfile=bundle.js --watch",
@@ -8,10 +8,16 @@
   },
   "license": "ISC",
   "bugs": {
+    "build": "esbuild index.js --bundle  --outfile=bundle.js --watch",
+    "qbuild": "esbuild index.js --bundle  --outfile=bundle.js",
     "url": "https://github.com/JacobCH93/JavaScript-Web/issues"
   },
   "homepage": "https://github.com/JacobCH93/JavaScript-Web#readme",
   "dependencies": {
     "jest": "^27.4.0"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {},
+  "description": ""
 }

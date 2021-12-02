@@ -1,8 +1,6 @@
-const fetchGithubRepo = require('./fetchGithubRepo');
+const fetchGithubRepo = require("./fetchGithubRepo");
 
-fetchGithubRepo('sinatra/sinatra', (repoData) => {
-    console.log(repoData);
-    document.write(JSON.stringify(repoData));
-});
- 
-
+// fetchGithubRepo("sinatra/sinatra", (repoData) => {
+//   console.log(repoData);
+//   document.write(JSON.stringify(repoData));
+// });
