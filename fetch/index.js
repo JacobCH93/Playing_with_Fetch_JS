@@ -1,6 +1,6 @@
-const fetchGithubRepo = require("./fetchGithubRepo");
+const urlInput = document.querySelector("#urlName");
+const button = document.querySelector("#urlSubmit");
 
-// fetchGithubRepo("sinatra/sinatra", (repoData) => {
-//   console.log(repoData);
-//   document.write(JSON.stringify(repoData));
-// });
+button.addEventListener("click", () => {
+  console.log(urlInput.value);
+});
